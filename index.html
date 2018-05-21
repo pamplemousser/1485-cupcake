@@ -2,62 +2,346 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<title>Home Page</title>
+<title>supercalifragilisticexpiallidocious</title>
 </head>
 
-<body id="home-page">
-<!-- missing an element to apply the background image to. Do not need to apply an ID to the body element --> 
-<!-- write the HTML as it appears in browser from top to bottom, left to right. The very first thing within the wrapper should be the logo, then the nav, then sustainability starts with you -->
-<div class="wrapper">
-  <section> <!-- this is not a section, it's introductory content to the website --> 
-    <h2>sustainability</h2> <!-- sustainability starts with you is not a headline to this page --> 
-    <h1>starts with you</h1>
-    <h3>Bedford</h3> <!-- this should be an image of the logo --> 
-    <h4>foundation</h4>
-    <nav>
-      <div class="nav"> <!-- remove extra div --> 
+<body>
+<div class="smooth-scroll">
+  <div class="wrapper">
+    <div class="palelavender">
+      <nav>
         <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="take_action.html">take action</a></li>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#products">products</a></li>
+          <li><a href="#contact">contact us</a></li>
         </ul>
+      </nav>
+    </div>
+    <div id="home">
+      <h2>Try our signature cupcake.</h2>
+    </div>
+    <div class="palepeach" id="about">
+      <section>
+        <header>
+          <h1>Specialty bakery dedicated to creating and baking several different sweet treats.</h1>
+        </header>
+        <div class="row">
+          <div class="column"><img src="img/display-cupcake.jpg" alt="image of a cupcake"></div>
+          <div class="column">
+            <h2>About Us</h2>
+            <p>We offer cupcakes in three sizes: Jumbo Gourmet (filled), Regular &amp; Mini. Plus, we make Cakes, Cake Balls/Pops, Brownie Shots and several other sweet treats!</p>
+            <p>We are open 7 days a week, beginning Sunday at 11 am till 4 pm. Monday through Friday 8 am till 7 pm, and Saturday 10 am to 5 pm.</p>
+            <p>Stop in today for a treat or give us a call for an order!  We take special orders daily and provide 
+              delivery options. For pricing inquiries, please give us a call.</p>
+          </div>
+          <div class="column">
+            <h2>Hours</h2>
+            <p><img src="img/cherry.png" alt="">Monday-Friday</p>
+            <p>8:00am-7:00pm</p>
+            <p><img src="img/cherry.png" alt="">Saturday</p>
+            <p>10:00am-5:00pm</p>
+            <p><img src="img/cherry.png" alt="">Sunday</p>
+            <p>11:00am-4:00pm</p>
+          </div>
+        </div>
+        <div>
+          <h3><a href="#contact">contact us</a></h3>
+        </div>
+      </section>
+    </div>
+    <div class="pink" id="products">
+      <section>
+        <header>
+          <h2>Our Treats</h2>
+          <p>We have something for every craving, celebration and occasion. We also offer several allergen free options.</p>
+        </header>
+        <div class="row">
+          <div class="column"> <img src="img/product-one.jpg" alt="image of a cupcake">
+            <h3>Signature Cupcakes</h3>
+            <p> Caramels marshmallow jelly-o cotton candy ice cream I love cotton candy chocolate bar fruitcake.</p>
+            <p><a href="#contact">order now</a></p>
+          </div>
+          <div class="column"> <img src="img/product-two.jpg" alt="image of a chocolate cupcake">
+            <h3>Allergen-Free</h3>
+            <p>Topping pudding candy canes dragée. Lemon drops chupa chups gingerbread. Jelly topping apple pie cake pie icing chocolate bar fruitcake oat cake.</p>
+            <p><a href="#contact">order now</a></p>
+          </div>
+          <div class="column"> <img src="img/product-three.jpg" alt="image of a cupcake">
+            <h3>Vegan</h3>
+            <p>Pastry halvah gummi bears chupa chups I love. Macaroon pastry chocolate cake oat cake I love soufflé chocolate I love</p>
+            <p><a href="#contact">order now</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="aqua">
+      <h2>Daily Flavors</h2>
+      <div class="row">
+        <div class="column">
+          <div class="cupcake" id="cc-1">
+            <h3>wedding cake</h3>
+            <p>White Cake frosted with white buttercream and topped with wedding day sprinkles and a rose ornament.</p>
+          </div>
+          <div class="cupcake" id="cc-2">
+            <h3>peanut butter cup</h3>
+            <p>Chocolate Cake frosted with peanut butter buttercream and topped with peanut butter cup crumbles.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="cupcake" id="cc-3">
+            <h3> the tuxedo</h3>
+            <p> Chocolate Cake frosted with White buttercream, sprinkled with sprinkles.</p>
+          </div>
+          <div class="cupcake" id="cc-4">
+            <h3>cookies &amp; cream</h3>
+            <p>Chocolate Cake frosted with chocolate cookie crumb buttercream and topped with crumbed oreo crumbs.</p>
+          </div>
+        </div>
       </div>
-    </nav>
-  </section>
+      <div class="row">
+        <div class="column">
+          <div class="cupcake" id="cc-5">
+            <h3>prince/princess</h3>
+            <p>Almond flavored White Cake frosted with a pastel pink and pastel blue swirl vanilla buttercream, topped with colorful confetti sprinkles.</p>
+          </div>
+          <div class="cupcake" id="cc-6">
+            <h3>signature</h3>
+            <p>Chocolate Cake frosted with our favorite Cupcakes &amp; more colors, chocolate and hot pink swirled buttercream.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="cupcake" id="cc-7">
+            <h3>go big red velvet</h3>
+            <p>Always friendly for Husker game day!! Red Velvet cake frosted with traditional cream cheese frosting and topped with red sprinkles.</p>
+          </div>
+          <div class="cupcake" id="cc-8">
+            <h3>chocolate lovers'</h3>
+            <p>Chocolate Cake dipped in chocolate ganache, sprinkled with mini chocolate chips and topped with a dollop of chocolate buttercream.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="white" id="contact">
+      <header>
+        <h2>Place Order</h2>
+        <p>Time limits for orders are 48 hours; please wait for a confirmation email to verify your order.</p>
+      </header>
+      <h2>Our Prices</h2>
+      <table>
+        <thead>
+          <tr>
+            <td colspan="2">Individual</td>
+            <td>One Dozen</td>
+            <td>Two Dozen</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4"></td>
+          </tr>
+          <tr>
+            <td>Mini</td>
+            <td>$1.25</td>
+            <td>$13.00</td>
+            <td>$2.00 Off!</td>
+          </tr>
+          <tr>
+            <td>Regular</td>
+            <td>$2.50</td>
+            <td>$27.50</td>
+            <td rowspan="2"></td>
+          </tr>
+          <tr>
+            <td>Jumbo</td>
+            <td>$3.50</td>
+            <td>$38.50</td>
+          </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+      </table>
+      <form>
+        <div class="column">
+          <ul>
+            <li>
+              <label for="firstname">first name</label>
+              <input class="palelavender" type="text" name="firstname" id="firstname">
+            </li>
+            <li>
+              <label for="lastname">last name</label>
+              <input type="text" name="lastname" id="lastname">
+            </li>
+            <li>
+              <label for="phonenumber">phone number</label>
+              <input type="text" name="phonenumber" id="phonenumber">
+            </li>
+            <li>
+              <label for="email">email address</label>
+              <input type="text" name="email" id="email">
+            </li>
+            <li>special requests
+              <textarea name="requests" rows="10" cols="45"></textarea>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <p>Occasion</p>
+          <select>
+            <option>Work</option>
+            <option>Play</option>
+            <option>Birthday</option>
+            <option>Wedding/Anniversary</option>
+            <option>Binging</option>
+            <option>Diabetic Coma</option>
+            <option>Jes' Cuz</option>
+          </select>
+          <label for="quantity">quantity</label>
+          <ul>
+            <li>
+              <input type="radio" name="quantity" value="Individual">
+              Individual </li>
+            <li>
+              <input type="radio" name="quantity" value="One Dozen">
+              One Dozen </li>
+            <li>
+              <input type="radio" name="quantity" value="Two Dozen" checked>
+              Two Dozen </li>
+          </ul>
+          <label>flavor</label>
+          <div class="row">
+            <div class="column">
+              <ul>
+                <li>
+                  <input type="checkbox" name="flavor" value="wedding_cake">
+                  Wedding Cake</li>
+                <li>
+                  <input type="checkbox" name="flavor" value="go_big_red">
+                  Go Big Red</li>
+                <li>
+                  <input type="checkbox" name="flavor" value="signature">
+                  Signature</li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li>
+                  <input type="checkbox" name="flavor" value="tuxedo">
+                  The Tuxedo</li>
+                <li>
+                  <input type="checkbox" name="flavor" value="pbcup">
+                  Peanut Butter Cup</li>
+                <li>
+                  <input type="checkbox" name="flavor" value="choclover">
+                  Chocolate Lovers'</li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li>
+                  <input type="checkbox" name="flavor" value="princess">
+                  Prince/Princess</li>
+                <li>
+                  <input type="checkbox" name="flavor" value="cookiescream">
+                  Cookies &amp; Cream</li>
+              </ul>
+            </div>
+          </div>
+          <label>type</label>
+          <ul>
+            <li>
+              <input type="checkbox" name="type" value="signature">
+              Signature</li>
+            <li>
+              <input type="checkbox" name="type" value="allergen_free">
+              Allergen-Free</li>
+            <li>
+              <input type="checkbox" name="type" value="vegan">
+              Vegan</li>
+          </ul>
+        </div>
+        <p><a href="http://www.paypal.com">pay on paypal</a></p>
+      </form>
+    </div>
+    <div class="palelavender">
+      <div class="row">
+        <div id="title">
+          <h4>Real Fake Authentic</h4>
+          <p>Specialty bakery dedicated to creating and baking several different sweet treats. </p>
+        </div>
+        <div id="location">
+          <h4>Our Location</h4>
+          <p>123 Fake Street #101 Fakersville, FA 12345</p>
+        </div>
+        <div id="icons">
+          <h4>Connect</h4>
+          <ul>
+            <li> <a href="http://www.facebook.com" target="_blank"> <span>Facebook</span> </a> </li>
+            <li> <a href="http://www.facebook.com" target="_blank"> </a> </li>
+            <li> <a href="http://www.twitter.com" target="_blank"> <span>Twitter</span> </a> </li>
+            <li> <a href="http://www.twitter.com" target="_blank"> </a> </li>
+            <li> <a href="http://www.pinterest.com" target="_blank"> <span>Facebook</span> </a> </li>
+            <li> <a href="http://www.pinterest.com" target="_blank"> </a> </li>
+            <li> <a href="http://www.google.com" target="_blank"> <span>Facebook</span> </a> </li>
+            <li> <a href="http://www.google.com" target="_blank"> </a> </li>
+            <li> <a href="http://www.youtube.com" target="_blank"> <span>Facebook</span> </a> </li>
+            <li> <a href="http://www.youtube.com" target="_blank"> </a> </li>
+          </ul>
+          <!--<ul>
+          <li><a href="http://www.facebook.com" target="_blank"><span>Facebook</span></a></li>
+          <li><a href="http://www.facebook.com" target="_blank"></a></li>
+        </ul>
+		  <ul>
+          <li id="twitter"> <a href="http://www.twitter.com" target="_blank"> <span>Twitter</span></a></li>
+          <li><a href="http://www.twitter.com" target="_blank"></a></li>
+        </ul>
+		  <ul>
+          <li id="pinterest"> <a href="http://www.pinterest.com" target="_blank"> <span>Pinterest</span></a></li>
+          <li><a href="http://www.pinterest.com" target="_blank"></a></li>
+        </ul>
+		  <ul>
+          <li id="google"> <a href="http://www.google.com" target="_blank"> <span>Google</span></a></li>
+          <li><a href="http://www.google.com" target="_blank"></a></li>
+        </ul>
+		  <ul>
+          <li id="youtube"> <a href="http://www.youtube.com" target="_blank"> <span>Youtube</span></a></li>
+          <li><a href="http://www.youtube.com" target="_blank"></a></li>
+        </ul>--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="wrapper">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/functions.js"></script>
+jQuery(document).ready(function($){
 	
-  <section><!-- this whole chunk is not one section. It is instead multiple sections --> 
-    <h2>We conserve land through outreach, restoration, and research. </h2> <!-- This isn't a headline to any content --> 
-    <p>Some of the Earth's greatest landscapes are threatened by increased road construction, oil and gas exploration, and mining. We aim to protect these areas from inappropriate development, but we cannot achieve our goals alone. Find out how you can help. </p>
-	  
-	  <!-- missing row class to control floats --> 
-	  <!-- missing images --> 
-    <h2>About</h2>
-    <p>Find out about our organization, mission, our methods, and the results of our decades of advocacy.</p>
-	  
-    <h2>Take Action</h2>
-    <p>Ready to take the next step? You can become a contributor to our cause, or participate yourself.</p>
-  </section>
-</div>
+	// Smooth scroll home nav
+		$('.smooth-scroll').on('click', 'a', function(e) {
+			// prevent default anchor click behavior
+   			e.preventDefault();
+		
+		   // store hash
+		   var hash = this.hash;
+			
+			$('html, body').animate({
+			   scrollTop: $(this.hash).offset().top-38
+			 }, 1000, function(){
+		
+			   // when done, add hash to url
+			   // (default click behaviour)
+			   window.location.hash = hash;
+			 });
+		
+		});
+
 	
-<!-- missing footer element --> 
-<div class="wrapper" id="row_for_social_media"> <img src="img/facebook.png" alt="" class="sprite"> <img src="img/dots.png" alt="" class="sprite"> <img src="img/twitter.png" alt="" class="sprite"> </div> <!-- sprites should be made up a list and anchor tags. Images should be placed in through CSS. Refer to inclass tutorial code --> 
-	
-<!-- missing element to apply background color to that extends outside of the wrapper -->
-<div class="wrapper" id="contact"> <!-- ID is not necessary --> 
-  <section> <!-- this content is not a section --> 
-    <h6>459 broadway, new york</h6>
-    <h6>(212) 555-0123</h6> <!-- The content is not a heading. Link phone and email --> 
-    <h6>template@gmail.com</h6>
-  </section>
-</div>
-	
-	
-	
+});
+</script>
 </body>
 </html>
