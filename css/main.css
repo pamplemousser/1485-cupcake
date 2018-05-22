@@ -56,11 +56,11 @@
     background-color: #fff;
 }
 .chocolate_text {
-    color: #432920;
+    color: #442920;
 }
 
 
-a span {
+footer a span {
 	display: none;
 }
 
@@ -68,22 +68,60 @@ ul {
 list-style: none;
 }
 	
-ul a, li {
+footer a, li {
 	display: inline-block;
 		
 }
-ul a {
-		width: 8.583px;
-	height: 18.803px;
+
+
+footer li:first-child a {
+	background: url(../img/facebook.png) no-repeat 0 0;
+	width: 22px;
+	height: 22px;
 }
 
-li:first-child a {
-	background: url("../img/sprites.png") no-repeat 0 0;
+footer li:first-child a:hover {
+	background-position: 0 -22px;
+}
+footer li:nth-child(2) a {
+	background: url(../img/twitter.png) no-repeat 0 0;
+	width: 22px;
+	height: 22px;
 }
 
-li:first-child a:hover {
-	background-position: 0 -18.803px;
+footer li:nth-child(2) a:hover {
+	background-position: 0 -22px;
 }
+footer li:nth-child(3) a {
+	background: url(../img/pinterest.png) no-repeat 0 0;
+	width: 22px;
+	height: 22px;
+}
+
+footer li:nth-child(3) a:hover {
+	background-position: 0 -22px;
+}
+footer li:nth-child(4) a {
+	background: url(../img/google.png) no-repeat 0 0;
+	width: 22px;
+	height: 22px;
+}
+
+footer li:nth-child(4) a:hover {
+	background-position: 0 -22px;
+}
+footer li:last-child a {
+	background: url(../img/youtube.png) no-repeat 0 0;
+	width: 22px;
+	height: 22px;
+}
+
+footer li:last-child a:hover {
+	background-position: 0 -22px;
+}
+
+
+
 /*a span {
     display: none;
 }

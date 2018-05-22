@@ -12,7 +12,7 @@
 <body>
 <div class="smooth-scroll">
   <div class="wrapper">
-    <div class="palelavender">
+    <div class="white"> <img src="img/real-fake.png" alt="logo for real fake authentic bakery">
       <nav>
         <ul>
           <li><a href="#home">home</a></li>
@@ -35,18 +35,41 @@
           <div class="column">
             <h2>About Us</h2>
             <p>We offer cupcakes in three sizes: Jumbo Gourmet (filled), Regular &amp; Mini. Plus, we make Cakes, Cake Balls/Pops, Brownie Shots and several other sweet treats!</p>
-            <p>We are open 7 days a week, beginning Sunday at 11 am till 4 pm. Monday through Friday 8 am till 7 pm, and Saturday 10 am to 5 pm.</p>
-            <p>Stop in today for a treat or give us a call for an order!  We take special orders daily and provide 
-              delivery options. For pricing inquiries, please give us a call.</p>
+            <p>We are open 7 days a week, beginning Sunday at
+              <time datetime="11:00">11 am</time>
+              till
+              <time datetime="16:00">4 pm</time>
+              . Monday through Friday
+              <time datetime="08:00">8 am</time>
+              till
+              <time datetime="19:00">7 pm</time>
+              , and Saturday
+              <time datetime="10:00">10 am</time>
+              to
+              <time datetime="17:00">5 pm</time>
+              .</p>
+            <p>Stop in today for a treat or <span><a href="#contact">give us a call for an order!  We take special orders daily and provide</a></span> delivery options. For pricing inquiries, please <span><a href="#contact">give us a call.</a></span></p>
           </div>
           <div class="column">
             <h2>Hours</h2>
-            <p><img src="img/cherry.png" alt="">Monday-Friday</p>
-            <p>8:00am-7:00pm</p>
+            <p><img src="img/cherry.png" alt="">Monday - Friday</p>
+            <p>
+              <time datetime="08:00">8:00am</time>
+              -
+              <time datetime="19:00">7:00pm</time>
+            </p>
             <p><img src="img/cherry.png" alt="">Saturday</p>
-            <p>10:00am-5:00pm</p>
+            <p>
+              <time datetime="10:00">10:00am</time>
+              -
+              <time datetime="17:00">5:00pm</time>
+            </p>
             <p><img src="img/cherry.png" alt="">Sunday</p>
-            <p>11:00am-4:00pm</p>
+            <p>
+              <time datetime="11:00">11:00am</time>
+              -
+              <time datetime="16:00">4:00pm</time>
+            </p>
           </div>
         </div>
         <div>
@@ -94,7 +117,7 @@
         </div>
         <div class="column">
           <div class="cupcake" id="cc-3">
-            <h3> the tuxedo</h3>
+            <h3>the tuxedo</h3>
             <p> Chocolate Cake frosted with White buttercream, sprinkled with sprinkles.</p>
           </div>
           <div class="cupcake" id="cc-4">
@@ -190,7 +213,7 @@
           </ul>
         </div>
         <div class="column">
-          <p>Occasion</p>
+          <p>occasion</p>
           <select>
             <option>Work</option>
             <option>Play</option>
@@ -200,74 +223,101 @@
             <option>Diabetic Coma</option>
             <option>Jes' Cuz</option>
           </select>
-          <label for="quantity">quantity</label>
           <ul>
             <li>
-              <input type="radio" name="quantity" value="Individual">
-              Individual </li>
+              <label>
+                <input type="radio" name="quantity" value="Individual">
+                Individual</label>
+            </li>
             <li>
-              <input type="radio" name="quantity" value="One Dozen">
-              One Dozen </li>
+              <label>
+                <input type="radio" name="quantity" value="One Dozen">
+                One Dozen</label>
+            </li>
             <li>
-              <input type="radio" name="quantity" value="Two Dozen" checked>
-              Two Dozen </li>
+              <label>
+                <input type="radio" name="quantity" value="Two Dozen" checked>
+                Two Dozen</label>
+            </li>
           </ul>
           <label>flavor</label>
           <div class="row">
             <div class="column">
               <ul>
                 <li>
-                  <input type="checkbox" name="flavor" value="wedding_cake">
-                  Wedding Cake</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="wedding_cake">
+                    Wedding Cake</label>
+                </li>
                 <li>
-                  <input type="checkbox" name="flavor" value="go_big_red">
-                  Go Big Red</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="go_big_red" checked>
+                    Go Big Red</label>
+                </li>
                 <li>
-                  <input type="checkbox" name="flavor" value="signature">
-                  Signature</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="signature">
+                    Signature</label>
+                </li>
               </ul>
             </div>
             <div class="column">
               <ul>
                 <li>
-                  <input type="checkbox" name="flavor" value="tuxedo">
-                  The Tuxedo</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="tuxedo">
+                    The Tuxedo</label>
+                </li>
                 <li>
-                  <input type="checkbox" name="flavor" value="pbcup">
-                  Peanut Butter Cup</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="pbcup">
+                    Peanut Butter Cup</label>
+                </li>
                 <li>
-                  <input type="checkbox" name="flavor" value="choclover">
-                  Chocolate Lovers'</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="choclover">
+                    Chocolate Lovers'</label>
+                </li>
               </ul>
             </div>
             <div class="column">
               <ul>
                 <li>
-                  <input type="checkbox" name="flavor" value="princess">
-                  Prince/Princess</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="prince">
+                    Prince/Princess</label>
+                </li>
                 <li>
-                  <input type="checkbox" name="flavor" value="cookiescream">
-                  Cookies &amp; Cream</li>
+                  <label>
+                    <input type="checkbox" name="flavor" value="cookiescream">
+                    Cookies &amp; Cream</label>
+                </li>
               </ul>
             </div>
           </div>
           <label>type</label>
           <ul>
             <li>
-              <input type="checkbox" name="type" value="signature">
-              Signature</li>
+              <label>
+                <input type="checkbox" name="type" value="signature" checked>
+                Signature</label>
+            </li>
             <li>
-              <input type="checkbox" name="type" value="allergen_free">
-              Allergen-Free</li>
+              <label>
+                <input type="checkbox" name="type" value="allergen_free">
+                Allergen-Free</label>
+            </li>
             <li>
-              <input type="checkbox" name="type" value="vegan">
-              Vegan</li>
+              <label>
+                <input type="checkbox" name="type" value="vegan">
+                Vegan</label>
+            </li>
           </ul>
         </div>
         <p><a href="http://www.paypal.com">pay on paypal</a></p>
       </form>
     </div>
-    <div class="palelavender">
+    <footer class="palelavender">
       <div class="row">
         <div id="title">
           <h4>Real Fake Authentic</h4>
@@ -275,50 +325,25 @@
         </div>
         <div id="location">
           <h4>Our Location</h4>
-          <p>123 Fake Street #101 Fakersville, FA 12345</p>
+          <p>123 Fake Street #101<br>
+            Fakersville, FA 12345</p>
         </div>
         <div id="icons">
           <h4>Connect</h4>
           <ul>
-            <li> <a href="http://www.facebook.com" target="_blank"> <span>Facebook</span> </a> </li>
-            <li> <a href="http://www.facebook.com" target="_blank"> </a> </li>
-            <li> <a href="http://www.twitter.com" target="_blank"> <span>Twitter</span> </a> </li>
-            <li> <a href="http://www.twitter.com" target="_blank"> </a> </li>
-            <li> <a href="http://www.pinterest.com" target="_blank"> <span>Facebook</span> </a> </li>
-            <li> <a href="http://www.pinterest.com" target="_blank"> </a> </li>
-            <li> <a href="http://www.google.com" target="_blank"> <span>Facebook</span> </a> </li>
-            <li> <a href="http://www.google.com" target="_blank"> </a> </li>
-            <li> <a href="http://www.youtube.com" target="_blank"> <span>Facebook</span> </a> </li>
-            <li> <a href="http://www.youtube.com" target="_blank"> </a> </li>
+            <li> <a href="http://www.facebook.com" target="_blank"><span>Facebook</span> </a> </li>
+            <li> <a href="http://www.twitter.com" target="_blank"><span>Twitter</span> </a> </li>
+            <li> <a href="http://www.pinterest.com" target="_blank"> <span>Pinterest</span> </a> </li>
+            <li> <a href="http://www.google.com" target="_blank"><span>Google</span> </a> </li>
+            <li> <a href="http://www.youtube.com" target="_blank"><span>Youtube</span> </a> </li>
           </ul>
-          <!--<ul>
-          <li><a href="http://www.facebook.com" target="_blank"><span>Facebook</span></a></li>
-          <li><a href="http://www.facebook.com" target="_blank"></a></li>
-        </ul>
-		  <ul>
-          <li id="twitter"> <a href="http://www.twitter.com" target="_blank"> <span>Twitter</span></a></li>
-          <li><a href="http://www.twitter.com" target="_blank"></a></li>
-        </ul>
-		  <ul>
-          <li id="pinterest"> <a href="http://www.pinterest.com" target="_blank"> <span>Pinterest</span></a></li>
-          <li><a href="http://www.pinterest.com" target="_blank"></a></li>
-        </ul>
-		  <ul>
-          <li id="google"> <a href="http://www.google.com" target="_blank"> <span>Google</span></a></li>
-          <li><a href="http://www.google.com" target="_blank"></a></li>
-        </ul>
-		  <ul>
-          <li id="youtube"> <a href="http://www.youtube.com" target="_blank"> <span>Youtube</span></a></li>
-          <li><a href="http://www.youtube.com" target="_blank"></a></li>
-        </ul>--> 
-          
-        </div>
+         </div>
       </div>
-    </div>
+    </footer>
   </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-	<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/functions.js"></script> 
 jQuery(document).ready(function($){
 	
 	// Smooth scroll home nav
@@ -342,6 +367,5 @@ jQuery(document).ready(function($){
 
 	
 });
-</script>
 </body>
 </html>
